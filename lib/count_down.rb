@@ -6,5 +6,5 @@ def counter(num)
   if num = 1
     puts num\n "Happy New Year!"
   else
-    puts counter(num) - 1
+    return counter(num)
 end
