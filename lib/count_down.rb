@@ -4,8 +4,9 @@
 def counter(num)
   num = 10
   if num == 1
-    puts num\n "Happy New Year!"
+    puts num
+    puts "Happy New Year!"
   else
-    puts num\n
+    puts num
     return counter(num - 1)
 end
