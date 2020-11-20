@@ -3,7 +3,7 @@
 
 def counter(num)
   num = 10
-  if num = 1
+  if num == 1
     puts num\n "Happy New Year!"
   else
     puts num\n
