@@ -1,12 +1,7 @@
 # Write your code here
-
-
-def counter(num)
-  num = 10
-  if num == 1
-    puts num
-    puts "Happy New Year!"
-  else
-    puts num
-    return counter(num - 1)
+count = 10 
+while count >= 1 do
+  puts count
+  count -= 1 
 end
+puts "Happy New Year!"
